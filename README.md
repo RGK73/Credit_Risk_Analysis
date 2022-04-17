@@ -67,7 +67,7 @@ Balanced Accuracy: 0.7975462408998795
 
 Precision: The precision is low for High-risk loans and is high for Low-risk loans.
 
-Recall: High/Low risk = .72/.81
+Recall: High/Low risk = .72/.87
 
 #### Balanced Random Forest Classifier
 
