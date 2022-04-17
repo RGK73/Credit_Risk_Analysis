@@ -63,19 +63,23 @@ Recall: High/Low risk = .72/.81
 
 #### Balanced Random Forest Classifier
 
-![alt_text]()Pic 5
+![alt_text](https://github.com/RGK73/Credit_Risk_Analysis/blob/main/Images/Balanced_Random_Forest_Classifier.png)
 
-Balanced Accuracy: 0.7877672625306695
+Balanced Accuracy: 0.7818811414482034
+
 Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-Recall: High/Low risk = .67/.91
+
+Recall: High/Low risk = .64/.92
 
 #### Easy Ensemble AdaBoost Classifier
 
-![alt_text]()Pic 6
+![alt_text](https://github.com/RGK73/Credit_Risk_Analysis/blob/main/Images/Easy_Ensemble_AdaBoost_Classifier.png)
 
-Balanced Accuracy: 0.925427358175101
+Balanced Accuracy: 0.9254565671948463
+
 Precision: The precision is low for High-risk loans and is high for Low-risk loans.
-Recall: High/Low risk = .91/.94
+
+Recall: High/Low risk = 0.07/1.00
 
 ### Summary:
-When working with balanced accuracy, the highest compared accuracy between 0 and 1 and is closest to 1 is the best machine learning model. For the credit card data set, the Easy Ensemble AdaBoost Classifier is the best model to choose with its .93 balanced accuracy. The other models were below .80 balanced accuracy. The precision for all models were similar and within an appropriate range. The recall score also needs to fall within 0 and 1, with numbers closer to 1 being the better model. The Easy Ensemble AdaBoost Classifier had the highest recall score, making it the final best machine learning model to choose for further credit card analysis.
+When working with balanced accuracy, the highest compared accuracy between 0 and 1 and is closest to 1 is the best machine learning model. For the credit card data set, the Easy Ensemble AdaBoost Classifier is the best model to choose with its 1.00 balanced accuracy. The other models were below .90 balanced accuracy. The precision for all models were similar and within an appropriate range. The recall score also needs to fall within 0 and 1, with numbers closer to 1 being the better model. The Easy Ensemble AdaBoost Classifier had the highest recall score, making it the final best machine learning model to choose for further credit card analysis.
