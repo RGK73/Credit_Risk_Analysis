@@ -33,32 +33,40 @@ The results for the six machine learning models including their respective balan
 
 ![alt_text](https://github.com/RGK73/Credit_Risk_Analysis/blob/main/Images/Naive_Random_Sampling.png)
 
-Balanced Accuracy: 0.71
+Balanced Accuracy: 0.7856360112968401
+
 Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+
 Recall: High/Low risk = .71/.86
 
 #### SMOTE Oversampling
 
 ![alt_text](https://github.com/RGK73/Credit_Risk_Analysis/blob/main/Images/SMOTE_oversampling.png)
 
-Balanced Accuracy: 0.71
+Balanced Accuracy: 0.7966770207605626
+
 Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+
 Recall: High/Low risk = .71/.88
 
 #### Undersampling
 
 ![alt_text](https://github.com/RGK73/Credit_Risk_Analysis/blob/main/Images/undersampling.png)
 
-Balanced Accuracy: 0.78
+Balanced Accuracy: 0.7742313998976678
+
 Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+
 Recall: High/Low risk = .77/.78
 
 #### Combination Under-Over Sampling
 
 ![alt_text](https://github.com/RGK73/Credit_Risk_Analysis/blob/main/Images/combined_under_over_sampling.png)
 
-Balanced Accuracy: 0.72
+Balanced Accuracy: 0.7975462408998795
+
 Precision: The precision is low for High-risk loans and is high for Low-risk loans.
+
 Recall: High/Low risk = .72/.81
 
 #### Balanced Random Forest Classifier
